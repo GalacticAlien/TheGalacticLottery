@@ -56,7 +56,7 @@
 &nbsp;
 <div style="font-weight: 400; text-align: left;">
 
-The reason we only target Satoshi's keys, and not all Bitcoin keys, is efficiency. We have no desire to run a huge database on a server that would cost a lot of money and would require unnecessary communication between the user and the server. By having the user's browser download a small database containing the Satoshi keys alone, the user can produce and test a much greater amount of private addresses per second than he would if he were using a huge database or a communication-requiring server that contains a huge database.
+The reason we only target Satoshi's keys, and not all Bitcoin keys, is efficiency. We have no desire to run a huge database on a server that would cost a lot of money and would require unnecessary communication between the user and the server. By having the user's browser download a small database containing the Satoshi keys alone, the user can produce and test a much greater amount of private addresses per second than he would if he was using a huge database or a communication-requiring server that contains a huge database.
 
 Because the user's chances of actually finding one of Satoshi’s private keys are possible but insignificant, we decided not to write a code that would steal the private key from that lucky us<span style="font-weight: 400;">er. Not only that, but because we are nice and because we don’t really care, we allow users to go on the website on their browsers, disconnect from the Internet, and search for the keys locally.</span>
 
